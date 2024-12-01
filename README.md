@@ -1,3 +1,4 @@
+[![test](https://github.com/23C1049/homework1/actions/workflows/test.yml/badge.svg)](https://github.com/23C1049/homework1/actions/workflows/test.yml)
 # 都道府県の県花を表示するコマンド
 ## 概要
 - このpreflowerコマンドは、入力した都道府県のシンボルである花とその花言葉を教えてくれます。
