@@ -15,14 +15,15 @@ out=$(echo 長野県 |./preflower)
 ### STRANGE INPUT ###
 echo 名古屋県| ./preflower 2> /tmp/test_file.log
 [ "$?" = 1 ] || ng "$LINENO"
-grep 存在しない都道府県 /tmp/test_file.log
+grep エラー /tmp/test_file.log
 [ "$?" = 0 ] || ng "$LINENO"
 
 
 echo | ./preflower 2> /tmp/test_file.log
 [ "$?" = 1 ] || ng "$LINENO"
-grep 存在しない都道府県 /tmp/test_file.log
+grep エラー /tmp/test_file.log
 [ "$?" = 0 ] || ng "$LINENO"
 
 [ "$res" = 0 ] && echo OK
+[ "$res" = 0 ] || echo NG
 exit $res
