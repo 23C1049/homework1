@@ -10,28 +10,28 @@
 
 ## 導入手順
 以下のコマンドをターミナル上で入力し、リポジトリのクローンを行ってください。
-```bash
-https://github.com/23C1049/homework1.git
+```
+$ git clone https://github.com/23C1049/homework1.git
 ```
 ## 実行手順
 リポジトリのクローンが出来たら、下記のように**cd**コマンドでhomework1ディレクトリに移動してください。
-```bash
-cd homework1
+```
+$ cd homework1
 ```
 homework1ディレクトリに移動出来たら、**chmod**コマンドでpreflowerに実行権限を与えてください。
-```bash
-chmod +x preflower
+```
+$ chmod +x preflower
 ```
 最後に、echo 都道府県 |./preflowerを入力し、実行してください。以下に実行例を記載します。
 ### 実行例
 - 千葉県の県花を調べたい場合
-```bash
-echo 千葉県 |./preflower
+```
+$ echo 千葉県 |./preflower
 千葉県の県花は菜の花です　花言葉は小さな幸せ
 ```
 - 富山県の県花を調べたい場合
-```bash
-echo 富山県 |./preflower
+```
+$ echo 富山県 |./preflower
 富山県の県花はチューリップです　花言葉は美しい瞳
 ```
 ### 実行上の注意
