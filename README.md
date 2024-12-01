@@ -46,7 +46,7 @@ echo 富山県 |./preflower
 - [Qiita-Markdown記法チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
 - [全国知事会-各都道府県のシンボル](https://www.nga.gr.jp/pref_info/symbol/)
 
-# 著作権及びライセンス
+## 著作権及びライセンス
 - このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます。
 - このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
     * https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html
