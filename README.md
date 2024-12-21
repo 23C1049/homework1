@@ -40,6 +40,9 @@ $ echo 富山県 |./preflower
 
 ## テスト環境
 - Ubuntu 20.04 LTS(WSL2)
+- Github Actions
+  - ubuntu-latest
+  - python-version 3.7~3.11
 
 ## 参考資料
 このプロジェクトを作成する上で参考にさせていただいたサイトを以下に記載します。
@@ -48,7 +51,7 @@ $ echo 富山県 |./preflower
 
 ## 著作権及びライセンス
 - このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます。
-- このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
+- このパッケージのtest.bashとtest.ymlは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
     * https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html
     * https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html
 - ©2024Shizen Kotake
